@@ -1,5 +1,5 @@
 const get404 = (req, res, next) => {
-  console.log('404 page ');
+  res.status(404).render('404', { pageTitle: 'Error page' });
 };
 
 export default { get404 };

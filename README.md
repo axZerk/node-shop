@@ -1,2 +1,3 @@
 # node-shop
-Classic SSR Node web application
+
+Classic SSR web application with Node.js
