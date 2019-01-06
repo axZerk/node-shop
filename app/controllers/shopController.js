@@ -6,4 +6,8 @@ const getProducts = (req, res, next) => {
   res.render('shop/products', { pageTitle: 'Products page' });
 };
 
-export default { getIndex, getProducts };
+const getCart = (req, res, next) => {
+  res.render('shop/cart', { pageTitle: 'Cart page' });
+};
+
+export default { getIndex, getProducts, getCart };
